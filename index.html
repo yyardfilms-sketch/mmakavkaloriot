@@ -226,8 +226,8 @@ function dayTotals(d){ const t={kcal:0,p:0,c:0,f:0}; for(const e of d.entries||[
 /* ---------- persistence: Supabase ----------
    Paste your project's values here (Supabase > Project Settings > API).
    The anon / publishable key is meant to be public; the access rules (RLS) protect your data. */
-const SUPABASE_URL = 'PASTE_SUPABASE_URL_HERE';
-const SUPABASE_KEY = 'PASTE_SUPABASE_ANON_KEY_HERE';
+const SUPABASE_URL = 'https://joygrugzmqeazpptpvme.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpveWdydWd6bXFlYXpwcHRwdm1lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE3MTI2MjQsImV4cCI6MjEwNzI4ODYyNH0.0gFlWHZzWA9eptEXGeyVz1lkyhancdi-s4OpT_Vu0aY';
 
 let sb = null, userId = null, mode = 'loading', authMsg = null, pendingWrites = 0;
 const chains = {};
